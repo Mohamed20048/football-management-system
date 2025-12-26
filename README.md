@@ -46,12 +46,6 @@ The user interface is designed to be intuitive and easy to use for all user role
 
 The focus is on clarity, usability, and fast navigation.
 
-## Use Case Diagram
-
-The following diagram illustrates the main use cases and user interactions within the system:
-
-![Use Case Diagram](docs/football-system-usecase.png)
-
 ## Technology Stack
 
 This project is built using modern frontend technologies:
