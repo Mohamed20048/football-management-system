@@ -1,73 +1,110 @@
-# Welcome to your Lovable project
+Below is a **cleanly integrated and rewritten README** that incorporates your **Football Team & Match Management System** description as the core project definition, while clearly presenting **you as the sole developer**. The wording is slightly refined to sound professional and intentional, without changing the meaning of your original text.
 
-## Project info
+You can replace your current README entirely with this.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+# Football Team & Match Management System
 
-There are several ways of editing your application.
+## Project Overview
 
-**Use Lovable**
+This repository contains a **Football Team & Match Management System** designed and developed by me. The application provides a centralized platform for managing football teams, players, matches, and competitions, while offering different levels of access for administrators, coaches, referees, players, and spectators.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+The system is intended to support both operational management (team creation, match scheduling, result tracking) and public-facing features such as viewing fixtures, team details, and match results.
 
-Changes made via Lovable will be committed automatically to this repo.
+## System Description
 
-**Use your preferred IDE**
+The system is used to manage football teams, players, and upcoming matches. It enables administrators, managers, and coaches to form teams, register players, organize matches, and maintain match results and statistics. Fans, players, and staff can access schedules, team information, and match outcomes.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Access to the system is restricted based on user roles, ensuring that only authorized users can modify sensitive data.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Functional Requirements
 
-Follow these steps:
+The system must:
+
+* Allow administrators and coaches to add, modify, and delete teams and players, including attributes such as player name, position, age, nationality, statistics, and assigned team.
+* Enable administrators to schedule matches, including date, time, venue, participating teams, and referees.
+* Allow teams to register for leagues or tournaments while validating eligibility requirements (e.g., squad size, player age limits).
+* Allow referees or authorized officials to record match results and player statistics, such as goals, assists, and disciplinary actions.
+
+## Non-Functional Requirements
+
+* Support a high volume of concurrent users, particularly on match days.
+* Securely store player, team, and match-related data.
+* Provide multiple access levels for players, coaches, referees, administrators, and spectators.
+* Ensure fast response times for live score updates and match schedules.
+* Maintain high availability with minimal downtime during competitions.
+
+## User Interface
+
+The user interface is designed to be intuitive and easy to use for all user roles. It provides quick access to:
+
+* Live scores
+* Match fixtures
+* League standings and rankings
+* Team rosters and player information
+
+The focus is on clarity, usability, and fast navigation.
+
+## Use Case Diagram
+
+The following diagram illustrates the main use cases and user interactions within the system:
+
+![Use Case Diagram](docs/football-system-usecase.png)
+
+## Technology Stack
+
+This project is built using modern frontend technologies:
+
+* Vite
+* TypeScript
+* React
+* shadcn/ui
+* Tailwind CSS
+
+## Getting Started
+
+### Local Development
+
+Ensure **Node.js** and **npm** are installed (using **nvm** is recommended).
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Navigate to the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The development server includes hot reloading and instant preview.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### GitHub Codespaces (Optional)
 
-**Use GitHub Codespaces**
+You can also develop using GitHub Codespaces:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+* Open the repository
+* Click **Code** → **Codespaces**
+* Create a new Codespace
+* Commit and push changes directly from the browser
 
-## What technologies are used for this project?
+## Deployment
 
-This project is built with:
+The application can be deployed on any modern frontend hosting platform such as Vercel or Netlify.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```sh
+npm run build
+```
 
-## How can I deploy this project?
+Deploy the generated build according to your hosting provider’s guidelines.
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## Author
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Developed and maintained by **Mohamed Omar**
+BSc Computer Science – University of Debrecen
+"# football-management-system" 
