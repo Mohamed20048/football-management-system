@@ -67,15 +67,6 @@ npm run dev
 
 The development server includes hot reloading and instant preview.
 
-### GitHub Codespaces (Optional)
-
-You can also develop using GitHub Codespaces:
-
-* Open the repository
-* Click **Code** → **Codespaces**
-* Create a new Codespace
-* Commit and push changes directly from the browser
-
 ## Author
 
 Developed and maintained by **Mohamed Omar**
