@@ -69,11 +69,6 @@ This project is built using modern frontend technologies:
 Ensure **Node.js** and **npm** are installed (using **nvm** is recommended).
 
 ```sh
-# Clone the repository
-git clone <YOUR_GIT_URL>
-
-# Navigate to the project directory
-cd <YOUR_PROJECT_NAME>
 
 # Install dependencies
 npm install
