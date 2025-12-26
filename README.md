@@ -82,16 +82,6 @@ You can also develop using GitHub Codespaces:
 * Create a new Codespace
 * Commit and push changes directly from the browser
 
-## Deployment
-
-The application can be deployed on any modern frontend hosting platform such as Vercel or Netlify.
-
-```sh
-npm run build
-```
-
-Deploy the generated build according to your hosting provider’s guidelines.
-
 ## Author
 
 Developed and maintained by **Mohamed Omar**
