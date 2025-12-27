@@ -1,9 +1,3 @@
-Below is a **cleanly integrated and rewritten README** that incorporates your **Football Team & Match Management System** description as the core project definition, while clearly presenting **you as the sole developer**. The wording is slightly refined to sound professional and intentional, without changing the meaning of your original text.
-
-You can replace your current README entirely with this.
-
----
-
 # Football Team & Match Management System
 
 ## Project Overview
@@ -46,12 +40,6 @@ The user interface is designed to be intuitive and easy to use for all user role
 
 The focus is on clarity, usability, and fast navigation.
 
-## Use Case Diagram
-
-The following diagram illustrates the main use cases and user interactions within the system:
-
-![Use Case Diagram](docs/football-system-usecase.png)
-
 ## Technology Stack
 
 This project is built using modern frontend technologies:
@@ -69,11 +57,6 @@ This project is built using modern frontend technologies:
 Ensure **Node.js** and **npm** are installed (using **nvm** is recommended).
 
 ```sh
-# Clone the repository
-git clone <YOUR_GIT_URL>
-
-# Navigate to the project directory
-cd <YOUR_PROJECT_NAME>
 
 # Install dependencies
 npm install
@@ -83,25 +66,6 @@ npm run dev
 ```
 
 The development server includes hot reloading and instant preview.
-
-### GitHub Codespaces (Optional)
-
-You can also develop using GitHub Codespaces:
-
-* Open the repository
-* Click **Code** → **Codespaces**
-* Create a new Codespace
-* Commit and push changes directly from the browser
-
-## Deployment
-
-The application can be deployed on any modern frontend hosting platform such as Vercel or Netlify.
-
-```sh
-npm run build
-```
-
-Deploy the generated build according to your hosting provider’s guidelines.
 
 ## Author
 
